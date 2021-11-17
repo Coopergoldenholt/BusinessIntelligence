@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { FlatList, Text } from 'react-native';
+import {FlatList, Text} from 'react-native';
 
-export default class Businesses extends React.Component {
-  render() {
-    return <Text>Foo bar shibby</Text>
-    // return <FlatList />
-  }
-}
+const Businesses = () => {
+  return <Text>Foo bar shibby</Text>;
+  // return <FlatList />
+};
+
+export default Businesses;
