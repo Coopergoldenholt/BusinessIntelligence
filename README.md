@@ -14,5 +14,7 @@ If you run into any configuration or build tool issues, feel free to reach out.
 - https://github.com/danielgindi/Charts
 - https://mockaroo.com/ 
 # DivvyMobileTest
+This project was built on ios. In order to run cd ios && pod install. Then build the project either with npx react-native run-ios or through Xcode.
+
 # DivvyMobileTest
 # DivvyMobileTest
