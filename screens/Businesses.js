@@ -1,15 +1,14 @@
 import * as React from 'react';
-import {FlatList, Text} from 'react-native';
+import {FlatList, StyleSheet} from 'react-native';
 import companyData from '../data.json';
-import BusinessDetail from './BusinessDetail';
+import BusinessCard from '../components/BusinessCard';
 
 const Businesses = () => {
-  console.log(companyData);
   return (
     <FlatList
       data={companyData}
       renderItem={({item}) => (
-        <BusinessDetail
+        <BusinessCard
           key={item.id}
           name={item.name}
           location={item.location}
