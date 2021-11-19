@@ -16,7 +16,7 @@ const BusinessCard = ({name, location, revenue}) => {
           revenue,
         })
       }
-      cardStyles={{paddingVertical: 20, paddingHorizontal: 15}}>
+      cardStyles={styles.cardStyles}>
       <Text style={styles.text}>{name}</Text>
       <ArrowIcon />
     </Card>
@@ -26,6 +26,13 @@ const BusinessCard = ({name, location, revenue}) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 20,
+  },
+  cardStyles: {
+    paddingVertical: 20,
+    paddingHorizontal: 15,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
 });
 
